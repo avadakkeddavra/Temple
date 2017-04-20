@@ -1,0 +1,73 @@
+.blog-container{
+    padding: 80px 0px;
+    padding-top: 200px;
+}
+.blog-container .info-panel ul, .blog .info-panel ul{
+    list-style: none;
+}
+.blog-container .info-panel ul li, .blog .info-panel ul li{
+    display: inline-block;
+    margin-right: 30px;
+    color: #dd4165;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.blog-container .info-panel ul li i, .blog .info-panel ul i{
+    margin-right: 10px;
+}
+.blog-info{
+    padding: 20px 0px;
+}
+.blog-info{
+    padding: 20px 0px;
+}
+
+.blog-info h1,.blog-info h2,.blog-info h3,.blog-info h4,.blog-info h5,.blog-info h6{
+    font-size: 20px;
+    color: #454545;
+    text-transform: capitalize !important;
+}
+.blog-info p{
+    font-size: 18px;
+    color: #818181;
+    font-weight: 300;
+    padding: 10px 0px;
+}
+/*TESTIMONIALS*/
+.testimonials:after, .testimonials:before{
+    display: none;
+}
+.testimonials-container{
+    margin-top: 60px;
+}
+.testimony p{
+    font-size: 18px;
+    color: #818181;
+    font-weight: 300;
+}
+.author-img{
+    overflow: hidden;
+    border-radius: 50%;
+}
+.author-img img{
+    border-radius: 50%;
+}
+.author-name a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #818181;
+}
+.testimony-nav p{
+    padding-left: 0;  
+}
+.testimony-active{
+    text-align: right;
+}
+.testimony-active *{
+    margin-left: 50px;
+    font-size: 16px;
+    color: #818181;
+}
+.testimony-active a:hover,.testimony-active a i:hover{
+    color: #dd4165;
+}
